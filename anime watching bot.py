@@ -25,5 +25,5 @@ async def watching(ctx, *, anime_name: str):
     else:
         await ctx.send(f"This command can only be used in <#{ALLOWED_CHANNEL_ID}>.")
 
-bot.run("MTM1NDU2MDM1MzY5ODA1NDMzNA.G40cVM.OyPk4zzKF_w4ZMkU3njU8w3KN3z6FXc9B6UJcU")
+bot.run(os.environ["MTM1NDU2MDM1MzY5ODA1NDMzNA.G40cVM.OyPk4zzKF_w4ZMkU3njU8w3KN3z6FXc9B6UJcU"])
 
